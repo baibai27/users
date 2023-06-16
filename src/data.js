@@ -1,5 +1,5 @@
 async function getUsers() {
-  const url = "https://randomuser.me/api/?inc=name,picture&results=50";
+  const url = "https://randomuser.me/api/?inc=name,picture&results=54";
 
   try {
     const request = await fetch(url);
